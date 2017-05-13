@@ -1,0 +1,14 @@
+[package]
+name = "new_bitflags"
+version = "0.1.0"
+
+description = "More ergonomic bitflags"
+
+documentation = "https://docs.rs/new_bitflags/"
+homepage = "https://github.com/murarth/new_bitflags"
+repository = "https://github.com/murarth/new_bitflags"
+
+keywords = ["bitflags"]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+authors = ["Murarth <murarth@gmail.com>"]
