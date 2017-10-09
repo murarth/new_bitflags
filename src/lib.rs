@@ -100,7 +100,7 @@
 ///
 /// * `fn from_bits(bits) -> Option<Self>` converts from underlying bits,
 ///    checking that all bits correspond to defined flags.
-/// * `fn from_bits_truncate(bits) -> Option<Self>` converts from underlying bits,
+/// * `fn from_bits_truncate(bits) -> Self` converts from underlying bits,
 ///   truncating any bits that do not correspond to defined flags.
 /// * `fn bits(&self) -> bits` returns the underlying bits
 /// * `fn contains(&self, other: Self) -> bool` returns whether the set
