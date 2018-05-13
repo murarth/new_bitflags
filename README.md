@@ -1,3 +1,16 @@
+# Deprecated
+
+This crate was written before the introduction of associated constants,
+when the [`bitflags`](https://crates.io/crates/bitflags) crate would generate
+a module containing constant items for defined flags. Those were dark times.
+
+However, now that associated constants are here, `bitflags` is wonderfully
+ergonomic and this crate is obsolete.
+
+Therefore, feel free to disregard this crate and use `bitflags` instead.
+
+We now return to your regularly scheduled README:
+
 # `new_bitflags`
 
 More ergonomic bitflags
